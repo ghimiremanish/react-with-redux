@@ -3,11 +3,13 @@ import {Provider} from 'react-redux'
 import store from './redux/store'
 import './App.css';
 import CakeCntainer from './components/cakeContainer'
+import HooksCakeContainer from './components/HooksCakeContainer'
 
 function App() {
   return (
     <Provider store={store}>
-      <CakeCntainer />
+      {/* <CakeCntainer /> */}
+      <HooksCakeContainer />
     </Provider>
   );
 }
