@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CakeCntainer from './container/cakeContainer'
+import CakeCntainer from './components/cakeContainer'
 
 function App() {
   return (
